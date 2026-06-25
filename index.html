@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paulrithish — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- ═══ NAVBAR ═══ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">
+      <span class="brand-bracket">&lt;</span>
+      <span class="brand-name">PR</span>
+      <span class="brand-bracket">/&gt;</span>
+    </div>
+    <div class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#internships" class="nav-link">Experience</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#certifications" class="nav-link">Certs</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ═══ HOME ═══ -->
+  <section id="home" class="section hero-section">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <div class="hero-left reveal-left">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Paul Rithish <span class="name-highlight">P</span></h1>
+        <div class="hero-role">
+          <span class="role-prefix">_</span>
+          <span class="typed-text" id="typedText"></span>
+          <span class="cursor">|</span>
+        </div>
+        <p class="hero-summary">
+          Aspiring Python Developer and Machine Learning enthusiast with hands-on experience in
+          building AI-based real-time systems using Computer Vision. Strong foundation in data
+          analysis and intelligent system development.
+        </p>
+        <div class="hero-actions">
+          <a href="https://drive.google.com/file/d/1XOI9ejP52hnacP0pkdOoRb-A_j9UDVkR/view?usp=drive_link"
+            class="btn-primary" download>
+            <i class="fas fa-download"></i> Download Resume
+          </a>
+          <a href="#contact" class="btn-outline">Get in Touch</a>
+        </div>
+        <div class="social-row">
+          <a href="https://www.linkedin.com/in/paulrithish-p-4963522a1/" target="_blank" class="social-link"
+            aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/Paulrithish27" target="_blank" class="social-link" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.instagram.com/rithish_ro_45/" target="_blank" class="social-link" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="mailto:paulrithish45@gmail.com" class="social-link" aria-label="Gmail">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+      <div class="hero-right reveal-right">
+        <div class="photo-wrapper">
+          <div class="photo-ring ring-1"></div>
+          <div class="photo-ring ring-2"></div>
+          <div class="photo-placeholder">
+            <img src="photo_rith.jpeg" class="profile-photo">
+            <span>Paul Rithish P</span>
+          </div>
+          <div class="photo-badge">
+            <i class="fas fa-code"></i>
+            <span> Fresher</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══ SKILLS ═══ -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">// 01</span>
+        <h2 class="section-title">Skills & Expertise</h2>
+        <p class="section-sub">Technologies I work with</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-category reveal-up" style="--delay:0.1s">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon"><i class="fas fa-code"></i></span>
+            <h3>Programming</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag" data-level="90">Python</span>
+            <span class="skill-tag" data-level="75">SQL</span>
+            <span class="skill-tag" data-level="65">Java</span>
+            <span class="skill-tag" data-level="70">HTML</span>
+            <span class="skill-tag" data-level="65">CSS</span>
+            <span class="skill-tag" data-level="60">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal-up" style="--delay:0.2s">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon"><i class="fas fa-cubes"></i></span>
+            <h3>Libraries</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag" data-level="85">NumPy</span>
+            <span class="skill-tag" data-level="85">Pandas</span>
+            <span class="skill-tag" data-level="75">Matplotlib</span>
+            <span class="skill-tag" data-level="80">OpenCV</span>
+            <span class="skill-tag" data-level="75">Scikit-Learn</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal-up" style="--delay:0.3s">
+          <div class="skill-cat-header">
+            <span class="skill-cat-icon"><i class="fas fa-brain"></i></span>
+            <h3>Concepts</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag" data-level="80">OOPs</span>
+            <span class="skill-tag" data-level="75">Data Structures</span>
+            <span class="skill-tag" data-level="80">Machine Learning</span>
+            <span class="skill-tag" data-level="78">Data Analysis</span>
+            <span class="skill-tag" data-level="82">Computer Vision</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ PROJECTS ═══ -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">// 02</span>
+        <h2 class="section-title">Projects</h2>
+        <p class="section-sub">Things I've built</p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card reveal-up" style="--delay:0.1s">
+          <div class="project-card-inner">
+            <div class="project-number">01</div>
+            <div class="project-icon-wrap">
+              <i class="fas fa-ship"></i>
+            </div>
+            <h3 class="project-title">Real-Time Proactive Security System for Maritime Geofencing Navigation</h3>
+            <p class="project-desc">
+              An intelligent maritime safety platform using GPS tracking and LoRa communication
+              to enable seamless geofencing, vessel monitoring, and real-time intrusion detection
+              across coastal boundaries.
+            </p>
+            <div class="project-tech-wrap">
+              <span class="tech-tag">GPS Tracking</span>
+              <span class="tech-tag">LoRa Communication</span>
+              <span class="tech-tag">Raspberry Pi</span>
+              <span class="tech-tag">Arduino</span>
+              <span class="tech-tag">Intrusion Detection</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-btn" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+              <a href="#" class="project-btn project-btn-live" target="_blank">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card reveal-up" style="--delay:0.2s">
+          <div class="project-card-inner">
+            <div class="project-number">02</div>
+            <div class="project-icon-wrap">
+              <i class="fas fa-eye"></i>
+            </div>
+            <h3 class="project-title">Intelligent Crowd Density & Overcrowding Detection System</h3>
+            <p class="project-desc">
+              A computer vision pipeline for real-time crowd monitoring and density analysis.
+              Detects overcrowding, generates instant alerts, and provides crowd analytics
+              dashboards for public safety management.
+            </p>
+            <div class="project-tech-wrap">
+              <span class="tech-tag">Computer Vision</span>
+              <span class="tech-tag">Real-Time Monitoring</span>
+              <span class="tech-tag">Crowd Analytics</span>
+              <span class="tech-tag">Alert Generation</span>
+            </div>
+            <div class="https://github.com/Paulrithish27/intelligent-crowd-density-overcrowd-detection">
+              <a href="#" class="project-btn" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+              <a href="https://github.com/Paulrithish27/intelligent-crowd-density-overcrowd-detection" target="_blank">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ INTERNSHIPS ═══ -->
+  <section id="internships" class="section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">// 03</span>
+        <h2 class="section-title">Experience</h2>
+        <p class="section-sub">Where I've worked</p>
+      </div>
+
+      <div class="experience-grid">
+        <div class="exp-card reveal-up" style="--delay:0.1s">
+          <div class="exp-accent"></div>
+          <div class="exp-header">
+            <div class="exp-company-logo"><i class="fas fa-building"></i></div>
+            <div>
+              <h3 class="exp-role">Software Development Intern</h3>
+              <p class="exp-company">SIEMAS Technology Pvt Ltd</p>
+            </div>
+            <span class="exp-badge">Internship</span>
+          </div>
+          <p class="exp-desc">
+            Developed AI-based attendance and surveillance systems leveraging Computer Vision
+            techniques. Built automated pipelines for face recognition and real-time monitoring.
+          </p>
+          <div class="exp-tags">
+            <span>Computer Vision</span>
+            <span>Python</span>
+            <span>AI Systems</span>
+            <span>Surveillance</span>
+          </div>
+        </div>
+
+        <div class="exp-card reveal-up" style="--delay:0.2s">
+          <div class="exp-accent"></div>
+          <div class="exp-header">
+            <div class="exp-company-logo"><i class="fas fa-microscope"></i></div>
+            <div>
+              <h3 class="exp-role">Computer Vision Intern</h3>
+              <p class="exp-company">YOCO Labs Pvt Ltd</p>
+            </div>
+            <span class="exp-badge">Internship</span>
+          </div>
+          <p class="exp-desc">
+            Worked extensively on YOLO-based object detection models and real-time vision
+            applications. Optimized detection pipelines for low-latency inference.
+          </p>
+          <div class="exp-tags">
+            <span>YOLO</span>
+            <span>Object Detection</span>
+            <span>OpenCV</span>
+            <span>Real-Time Vision</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ EDUCATION ═══ -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">// 04</span>
+        <h2 class="section-title">Education</h2>
+        <p class="section-sub">Academic journey</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-line"></div>
+
+        <div class="timeline-item reveal-up" style="--delay:0.1s">
+          <div class="timeline-dot">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-badge">B.Tech</span>
+              <span class="timeline-score">CGPA: 7.51</span>
+            </div>
+            <h3 class="timeline-degree">Information Technology</h3>
+            <p class="timeline-institution">University College of Engineering, Nagercoil</p>
+            <p class="timeline-detail">Bachelor of Technology — Undergraduate Program</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-up" style="--delay:0.2s">
+          <div class="timeline-dot">
+            <i class="fas fa-school"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-badge">Diploma</span>
+              <span class="timeline-score">82%</span>
+            </div>
+            <h3 class="timeline-degree">Computer Engineering</h3>
+            <p class="timeline-institution">IRT Polytechnic College</p>
+            <p class="timeline-detail">Diploma in Computer Engineering</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CERTIFICATIONS ═══ -->
+  <section id="certifications" class="section">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">// 05</span>
+        <h2 class="section-title">Certifications</h2>
+        <p class="section-sub">Credentials earned</p>
+      </div>
+
+      <div class="certs-grid">
+        <div class="cert-card reveal-up" style="--delay:0.1s">
+          <div class="cert-glow"></div>
+          <div class="cert-icon"><i class="fas fa-award"></i></div>
+          <div class="cert-body">
+            <span class="cert-issuer">NPTEL</span>
+            <h3 class="cert-title">Operating Systems Fundamentals</h3>
+          </div>
+          <div class="cert-verified"><i class="fas fa-check-circle"></i> Verified</div>
+        </div>
+
+        <div class="cert-card reveal-up" style="--delay:0.2s">
+          <div class="cert-glow"></div>
+          <div class="cert-icon"><i class="fas fa-eye"></i></div>
+          <div class="cert-body">
+            <span class="cert-issuer">Naan Mudhalvan</span>
+            <h3 class="cert-title">OpenCV Course</h3>
+          </div>
+          <div class="cert-verified"><i class="fas fa-check-circle"></i> Verified</div>
+        </div>
+
+        <div class="cert-card reveal-up" style="--delay:0.3s">
+          <div class="cert-glow"></div>
+          <div class="cert-icon"><i class="fab fa-linux"></i></div>
+          <div class="cert-body">
+            <span class="cert-issuer">Cube Square</span>
+            <h3 class="cert-title">Linux & Containers</h3>
+          </div>
+          <div class="cert-verified"><i class="fas fa-check-circle"></i> Verified</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CONTACT ═══ -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-tag">// 06</span>
+        <h2 class="section-title">Contact</h2>
+        <p class="section-sub">Let's build something together</p>
+      </div>
+
+      <div class="contact-wrapper">
+        <div class="contact-info reveal-left">
+          <h3>Say Hello<span class="gold">.</span></h3>
+          <p>
+            I'm currently open to new opportunities and collaborations. Whether you have a project
+            in mind or just want to connect — my inbox is always open.
+          </p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+              <a href="mailto:paulrithish45@gmail.com">paulrithish45@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+              <span>Tirunelveli, Tamil Nadu, India</span>
+            </div>
+          </div>
+          <div class="contact-social">
+            <a href="https://www.linkedin.com/in/paulrithish-p-4963522a1/" target="_blank" class="social-link"
+              aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/Paulrithish27" target="_blank" class="social-link" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/rithish_ro_45/" target="_blank" class="social-link"
+              aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal-right" id="contactForm" action="https://formspree.io/f/mqevpkvw" method="POST">
+            <div class="form-group">
+
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."
+                required></textarea>
+            </div>
+            <button type="submit" class="btn-primary form-submit" id="submitBtn">
+              <span class="btn-text"><i class="fas fa-paper-plane"></i> Send Message</span>
+              <span class="btn-loading" style="display:none"><i class="fas fa-spinner fa-spin"></i> Sending…</span>
+            </button>
+            <div class="form-status" id="formStatus"></div>
+
+          </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="brand-bracket">&lt;</span>
+          <span class="brand-name">Paul Rithish P</span>
+          <span class="brand-bracket">/&gt;</span>
+        </div>
+        <p class="footer-copy">
+          @2026 Paul Rithish P. All Rights Reserved.
+        </p>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══ BACK TO TOP ═══ -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
